@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.text-center{
+    text-align: center; 
+}
+
+
+.container{
+  align-self: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #ecf0f3;
+  border-radius: 30px;
+  padding: 15px;
+  padding: 15px;
+  box-shadow:inset 5px 5px 20px #ffffff,
+                5px 5px 20px rgba(0,0,0,.3) ;
+  width: fit-content;
+  height: fit-content;
+}
+.flex{
+display: flex;
+position: relative;
+border: none;
+flex-direction:column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.button{
+    padding: 18px;
+    margin: 0 4px;
+    width: 65px;
+    text-align: center;
+    font-size: 23px;
+    background-color: #ecf0f3;
+    border: none;
+    box-shadow: -5px -5px 12px #ffffff,
+     5px 5px 12px rgba(0,0,0,.3) ;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.button:active{
+    transform: translateY(2px);
+}
+.row{
+    margin: 8px 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.row input{
+    margin: auto;
+    background-color: #ecf0f3;
+    width: 280px;
+    height:100px;
+   
+    text-align: end;
+    font-size: 50px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    color: rgba(70,70,70);
+}
