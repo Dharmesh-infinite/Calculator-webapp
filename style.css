@@ -8,6 +8,14 @@ html, body{
 }
 .text-center{
     text-align: center; 
+    color: #ecf0f3;
+    font-size: 2rem;
+    width: fit-content;
+    background-color: #030c13;
+    align-self: center;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 8px;
 }
 
 
