@@ -5,6 +5,8 @@ html, body{
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    background: url('bg.webp');
+
 }
 .text-center{
     text-align: center; 
